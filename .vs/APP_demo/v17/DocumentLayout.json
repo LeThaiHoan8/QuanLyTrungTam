@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\@C#\\APP_demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frmdanhsachduthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmdanhsachduthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frmindanhsachduthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmindanhsachduthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frminhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frminhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frminlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frminlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|F:\\@C#\\APP_demo\\app_demo\\frminmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frminmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|f:\\@c#\\app_demo\\app_demo\\frmlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|F:\\@C#\\APP_demo\\app_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|F:\\@C#\\APP_demo\\app_demo\\frmlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA52AC-D549-4A68-8D9E-E0ED7A45F714}|APP_demo\\APP_demo.csproj|solutionrelative:app_demo\\frmlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 659,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmDanhSachDuThi.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmDanhSachDuThi.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmDanhSachDuThi.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmDanhSachDuThi.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmDanhSachDuThi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:03:48.477Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmInDanhSachDuThi.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmInDanhSachDuThi.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmInDanhSachDuThi.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmInDanhSachDuThi.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmInDanhSachDuThi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:03:46.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInhocvien.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmInhocvien.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmInhocvien.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmInhocvien.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmInhocvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:03:45.681Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmInLop.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmInLop.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmInLop.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmInLop.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmInLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:03:39.826Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmMain.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmMain.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmMain.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:03:36.854Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmLogin.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmLogin.cs",
+              "ToolTip": "F:\\APP_demo\\APP_demo\\frmLogin.cs [Design]",
+              "RelativeToolTip": "..\\..\\APP_demo\\APP_demo\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:47:46.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmInMonHoc.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmInMonHoc.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmInMonHoc.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmInMonHoc.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmInMonHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:47:46.196Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmLop.cs",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmLop.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmLop.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmLop.cs",
+              "RelativeToolTip": "APP_demo\\frmLop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:20:55.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLop.cs [Design]",
+              "DocumentMoniker": "F:\\@C#\\APP_demo\\APP_demo\\frmLop.cs",
+              "RelativeDocumentMoniker": "APP_demo\\frmLop.cs",
+              "ToolTip": "F:\\@C#\\APP_demo\\APP_demo\\frmLop.cs [Design]",
+              "RelativeToolTip": "APP_demo\\frmLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:20:35.356Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

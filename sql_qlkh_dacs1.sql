@@ -1,0 +1,128 @@
+﻿CREATE DATABASE quanlykhoahoc
+GO
+USE quanlykhoahoc
+GO
+
+
+CREATE TABLE Roles (
+    RoleID INT PRIMARY KEY IDENTITY(1,1),
+    RoleName NVARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(50) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    RoleID INT,
+    FOREIGN KEY (RoleID) REFERENCES Roles(RoleID)
+)
+
+
+CREATE TABLE HocVien
+(
+	MaHV char(10) NOT NULL,
+	TenHV NVARCHAR(20) NOT NULL,
+	NgaySinh date,
+	GioiTinh nvarchar(5), 
+	DiaChi NVARCHAR(100),
+	SoDienThoai char(10),
+	Email Nvarchar(20),
+
+	CONSTRAINT PK_HocVien PRIMARY KEY (MaHV)
+)
+GO
+
+
+CREATE TABLE GiaoVien
+(
+	MaGV char(10)  NOT NULL,
+	TenGV NVARCHAR(20) NOT NULL,
+	NgaySinh DATE,
+	GioiTinh nvarchar(5), 
+	DiaChi nvarchar(100),
+	SoDienThoai int,
+	Email Nvarchar(20),
+
+	CONSTRAINT PK_GiaoVien PRIMARY KEY (MaGV)
+)
+GO
+
+CREATE TABLE MonHoc
+(
+	MaMonHoc CHAR(10) NOT NULL,
+	TenMonHoc NVARCHAR(20),
+
+	CONSTRAINT PK_MonHoc PRIMARY KEY (MaMonHoc)
+)
+GO
+
+CREATE TABLE Lop
+(
+	MaLop char(10) NOT NULL,
+	TenLop nvarchar(50),
+	SiSo int,
+	NgayBatDau date,
+	NgayKetThuc date,
+	SoBuoi INT,
+	MaGiaoVien char(10) NOT NULL, 
+	MaMonHoc CHAR(10) NOT NULL, 
+
+	CONSTRAINT PK_Lop PRIMARY KEY (MaLop),
+
+	CONSTRAINT FK_Lop_GiaoVien FOREIGN KEY (MaGiaoVien)
+	REFERENCES GiaoVien
+	ON DELETE CASCADE ON UPDATE CASCADE,
+
+	CONSTRAINT FK_Lop_MonHoc FOREIGN KEY (MaMonHoc)
+	REFERENCES MonHoc
+	ON DELETE CASCADE ON UPDATE CASCADE
+)
+GO
+
+CREATE TABLE DanhSachDuThi
+(
+	MaLop CHAR(10) NOT NULL,
+	MaHocVien CHAR(10) NOT NULL,
+	MaMonHoc CHAR(10) NOT NULL,
+
+	NgayThi date,
+	CaThi NVARCHAR(30),
+	PhongThi nvarchar(30),
+	
+	CONSTRAINT PK_LopHoc_HocVien PRIMARY KEY (MaLop, MaHocVien,MaMonHoc),
+
+	CONSTRAINT FK_LopHoc_HocVien_Lop FOREIGN KEY (MaLop)
+	REFERENCES Lop
+	ON DELETE CASCADE ON UPDATE CASCADE,
+
+	CONSTRAINT FK_LopHoc_HocVien_HocVien FOREIGN KEY (MaHocVien)
+	REFERENCES HocVien
+	ON DELETE CASCADE ON UPDATE CASCADE,
+
+	CONSTRAINT FK_LopHoc_HocVien_MonHoc FOREIGN KEY (MaMonHoc)
+	REFERENCES MonHoc
+	--ON DELETE CASCADE ON UPDATE CASCADE
+)
+GO
+
+CREATE TABLE DanhSachDiem
+(
+	MaHocVien CHAR(10) NOT NULL,
+	MaMonHoc CHAR(10) NOT NULL,
+	Diem float,
+	TrangThai nvarchar(50),
+
+	CONSTRAINT PK_DanhSachDangKy PRIMARY KEY (MaHocVien,MaMonHoc),
+
+	CONSTRAINT FK_DanhSachDangKy_HocVien FOREIGN KEY (MaHocVien)
+	REFERENCES HocVien
+	ON DELETE CASCADE ON UPDATE CASCADE,
+
+	CONSTRAINT FK_DanhSachDangKy_MonHoc FOREIGN KEY (MaMonHoc)
+	REFERENCES MonHoc
+	ON DELETE CASCADE ON UPDATE CASCADE
+)
+GO
+
+
+
